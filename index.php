@@ -17,7 +17,7 @@
 </head>
 <body>
 	<img id="logo" src="images/logo.png" />
-	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:" Labs users !!!")."!"; ?></h1>
+	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:" Labs users ")."!!!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 	<?php
 	$links = [];
@@ -46,7 +46,7 @@
 
 	
 		?>
-		<h3>Cloudzone event</h3>
+		<h3>CLOUDZONE Hands-On Labs</h3>
 		<?php
 	
 	?>
